@@ -1,0 +1,8 @@
+*__pycache__
+dist/
+build/
+token.txt
+*PySimpleBarcode.egg-info
+Pipfile
+Pipfile.lock
+py

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+py_simple_history/__init__.py
+py_simple_history/main.py
+py_simple_history/version.py
+py_simple_history.egg-info/PKG-INFO
+py_simple_history.egg-info/SOURCES.txt
+py_simple_history.egg-info/dependency_links.txt
+py_simple_history.egg-info/top_level.txt
