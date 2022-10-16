@@ -26,7 +26,7 @@ Available on pip - `pip install py_simple_history`
 > **Abstract mixin to add simple history-tracking to an object.**
 > 
 > ```py
-class history_mixin(object):
+> class history_mixin(object):
 > 	def __init__(self, start_data):
 > 		...
 > 	def add_history(self, data):
@@ -37,7 +37,6 @@ class history_mixin(object):
 > 		"""Redoes history one step if possible."""
 > 	def undo(self):
 > 		"""Undoes history one step if possible."""
-> 
 > ```
 ### Example<a name="mark5"></a>[^](#mark0)
 

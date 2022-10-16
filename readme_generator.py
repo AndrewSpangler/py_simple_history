@@ -278,9 +278,10 @@ def generate_readme(version):
                             val = f'"""{meth.__doc__}"""'
                     classstring += f"\tdef {m}{str(signature(meth))}:\n\t\t{val}\n"
 
-            gen.add_code_block(
-                classstring.replace("\n", "\n" + gen.get_prefix()), lang="py"
-            )
+            formatted_classstring = ""
+            for l in classstring.splitlines():
+                formatted_classstring += gen.get_prefix() + l + "\n"
+            gen.add_code_block(formatted_classstring.strip(), lang="py")
             gen.quote_depth -= 1
         gen.decrease_toc_depth()
 
